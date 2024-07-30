@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cadastrocidade.css">
+</head>
+<body>
+    <form action="cadastrocidade.php" method="post">
+        <fieldset>
+            <h1>CADASTRO DE CIDADES</h1>
+            <button><a href="index.html">PÁGINA INICIAL</a></button>
+            <button><a href="listarcidade.php">CIDADES CADASTRADAS</a></button>
+        <div>
+            <label id="text" for="nomecidade">NOME DA CIDADE</label>
+            <input  type="text" name="nomecidade" id="nomecidade">
+        </div>  
+        <div>
+            <label id="text" for="estado">ESTADO</label>
+            <select name="estado" id="estado">
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AM">AM</option>
+                <option value="AP">AP</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="rj">RJ</option>
+                <option value="rn">RN</option>
+                <option value="ro">RO</option>
+                <option value="rs">RS</option>
+                <option value="rr">RR</option>
+                <option value="sc">SC</option>
+                <option value="sp">SP</option>
+                <option value="se">SE</option>
+                <option value="to">TO</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit"><a>CADASTRAR</a></button>
+        </div>   
+        </fieldset>
+    </form>
+</body>
+</html>
